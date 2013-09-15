@@ -1,0 +1,139 @@
+.rings{
+  width:99%;
+  height:275px;
+  position:relative;
+}
+.person{
+  width:45%;
+  height:100%;
+  position:absolute;
+  -webkit-transition: all ease 2s;
+  -moz-transition: all ease 2s;
+  -o-transition: all ease 2s;
+  transition: all ease 2s;
+  .ring{
+    width:100%;
+    min-height:100%;
+    position:relative;
+    border-radius:50%;
+    border:10px solid #000;
+    -webkit-transition: all ease 2s;
+    -moz-transition: all ease 2s;
+    -o-transition: all ease 2s;
+    transition: all ease 2s;
+  }
+  .name{
+    opacity: 1;
+    color: #000;
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    bottom: -85px;
+    width: 100%;
+    -webkit-transition: all ease 2s;
+    -moz-transition: all ease 2s;
+    -o-transition: all ease 2s;
+    transition: all ease 2s;
+    height: 80px;
+    padding-top: 10px;
+    font-family: Lubalin Graph;
+  }
+  &.female{
+    //margin-left:-10%;
+    left:2%;
+    .ring{
+      background: url('/img/katie/3.jpg');
+      background-size:100%;
+    }
+  }
+  &.male{
+    //margin-right:-10%
+    right:2%;
+    .ring{
+      background: url('/img/bobby/1.jpg');
+      background-size:100%;
+    }
+  }
+}
+
+body.animate{
+  .ring{
+    border-color:#f3da30;
+    opacity:0.75;
+  }
+  .male{
+    right:8%;
+  }
+
+  .female{
+    left:8%;
+  }
+  .person{
+    .name{
+      opacity:0.75;
+      //color:#f3da30;
+    }
+  }
+  .ampersand{
+    opacity:1;
+    color:#FFF;
+    font-size:100px;
+    top:100px;
+    right:0;
+    .second{
+      margin-top:58px;
+    }
+  }
+}
+
+.ampersand{
+  font-family:'Lubalin Graph';
+  color:#000;
+  -webkit-transition: all ease 2s;
+  -moz-transition: all ease 2s;
+  -o-transition: all ease 2s;
+  transition: all ease 2s;
+  font-size: 30px;
+  position: absolute;
+  top: 125px;
+  right:3px;
+  text-align: center;
+  width: 100%;
+  line-height: 100%;
+  .second{
+    display: block;
+    margin-top: 130px;
+    color: #000;
+    font-size: 70px;
+    margin-left: -10px;
+  }
+}
+
+.info{
+  line-height:1.6em;
+  text-align: center;
+  margin-top:30px;
+  width: 100%;
+  font-size:18px;
+  -webkit-transition: all ease 2s;
+  -moz-transition: all ease 2s;
+  -o-transition: all ease 2s;
+  transition: all ease 2s;
+
+  .intro{
+    font-size:26px;
+    line-height:36px;
+  }
+}
+
+
+nav{
+  display:block;
+  height:40px;
+}
+
+iframe{
+  margin:0 auto;
+  margin-top:50px;
+}

@@ -1,0 +1,341 @@
+/********************
+	Main Structure
+********************/
+
+
+@font-face {
+    font-family: 'Lubalin Graph';
+    src: url('/webfonts/lubalin/lubalin_graph_demi_regular-webfont.eot');
+    src: url('/webfonts/lubalin/lubalin_graph_demi_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/webfonts/lubalin/lubalin_graph_demi_regular-webfont.woff') format('woff'),
+         url('/webfonts/lubalin/lubalin_graph_demi_regular-webfont.ttf') format('truetype'),
+         url('/webfonts/lubalin/lubalin_graph_demi_regular-webfont.svg#lubalin_graph_demiregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* apply a natural box layout model to all elements */
+html, body{
+  height:100%;
+  font-family: 'Cutive', serif;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+body{
+	font-size:14px;
+	background: url('../img/bg.png') repeat #e5d7a8;
+}
+
+.fancy-border
+{	
+	-moz-border-image: url(../img/border.png) 29 29 round; /* Old Firefox */
+	-webkit-border-image: url(../img/border.png) 29 29 round; /* Safari */
+	-o-border-image: url(../img/border.png) 29 29 round; /* Opera */
+	border-image: url(../img/border.png) 29 29 round;
+
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+
+.wrap{ 
+	width:700px;
+	margin:20px auto;
+	padding:10px;
+	background-color: #fff;
+	box-shadow: 0px 0px 10px #888;
+	/*
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f7f3e6), to(#bdb3a1));
+	background-image: -webkit-linear-gradient(top, #f7f3e6, #bdb3a1);
+	background-image:    -moz-linear-gradient(top, #f7f3e6, #bdb3a1);
+	background-image:      -o-linear-gradient(top, #f7f3e6, #bdb3a1);
+	background-image:         linear-gradient(to bottom, #f7f3e6, #bdb3a1);
+	*/
+}
+
+@media only screen and (max-width: 700px) {
+	.wrap{
+		width:100%;
+	}
+	body.animate .wrap .ampersand{
+		top:50px;
+		font-size:50px;
+	}
+}
+
+@media only screen and (min-width: 479px) and (max-width: 700px) {
+	.wrap{
+		.rings{
+			height:175px;
+			width:400px;
+			margin:0 auto;
+		}
+		.person .name{
+			font-size:30px;
+			top:163px;
+		}
+		.ampersand{
+			top:65px;
+			.second{
+				margin-top:70px;
+			}
+		}
+	}
+	body.animate .wrap .ampersand{
+		top:60px;
+		font-size:50px;
+	}
+}
+
+@media only screen and (max-width: 478px) {
+	.wrap{
+		.rings{
+			height: 90px;
+			width: 210px;
+			margin: 0px auto;
+		}
+		.person .name{
+			font-size:30px;
+		}
+
+		.male .name{
+			left:30px;
+			top:85px;
+		}
+
+		.female .name{
+			right:50px;
+			top:85px;
+		}
+		.ampersand{
+			top:25px;
+			.second{
+				margin-top:10px;
+			}
+		}
+	}
+	body.animate .wrap .ampersand{
+		top:25px;
+		font-size:50px;
+		.second{
+			margin-top:20px;
+		}
+	}
+}
+
+h1{
+	width: 100%;
+	text-align: center;
+	font-size: 32px;
+	padding-top:75px;
+	font-family: 'Lubalin Graph';
+}
+
+h2{
+	width: 100%;
+	text-align: center;
+	font-size: 32px;
+	padding-top:20px;
+	margin-top:90px;
+}
+
+.subhead{
+	font-family: 'Swanky and Moo Moo';
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+	opacity:0.5;
+}
+
+nav{
+	width:100%;
+	text-align:center;
+}
+
+
+.inner-wrap{
+	background-color: #fff;
+	border:2px dashed #e5d7a8;
+	padding:20px;
+}
+
+header h1{
+	font-size:60px;
+	line-height: 100px;
+	text-align: center;
+	position: relative;
+}
+
+header h1 span{
+	font-size: 100px;
+	line-height: 100px;
+	position: relative;
+	z-index:25;
+}
+
+header h1 span.amp{
+	font-size: 160px;
+	top:25px;
+	margin:0 -45px;
+	opacity:.5;
+	color:#f3da30;
+	z-index: 0;
+}
+
+header h2{
+	font-size:45px;
+	text-align: center;
+}
+
+nav{
+	font-size:20px;
+	margin:20px 0;
+	height:40px;
+}
+
+nav ul li{
+	display:block;
+	float:left;
+	width:33%;
+	text-align:center;
+}
+
+nav ul li a{
+	display: block;
+	color:#000;
+	padding:10px;
+	text-decoration: none;
+	border: 2px solid white;
+}
+
+nav ul li a:hover{
+	/*color:#fff;
+	background-color:#000;*/
+	border: 2px dashed #E5D7A8;
+}
+
+.content{
+	width:100%;
+	position:relative;
+	overflow:hidden;
+}
+
+.content .slider{
+	position: absolute;
+	width:306%;
+	top:0;
+	left:0;
+}
+
+.content .panel{
+	text-align: center;
+	float:left;
+	width:33%;
+	height:500px;
+}
+
+.content h3{
+	font-size: 45px;
+}
+
+.map_wrap{
+	height:75%;
+	width:75%;
+	margin:0 auto;
+	position: relative;
+	background-color: #e0e0e0;
+}
+
+.map_border{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1;
+}
+
+#map{
+	width:100%;
+	height:300px;
+}
+
+
+.location ul{
+	margin:0 auto;
+}
+
+.location ul li{
+	text-align:left;
+	padding-left:50px;
+	margin-bottom:20px;
+}
+
+.location ul li h4{
+	font-size: 20px;
+}
+
+.location ul li.venue{
+	background: url('../img/venue.png') no-repeat top left;
+}
+
+.location ul li.hotel{
+	background: url('../img/hotel.png') no-repeat top left;
+	
+}
+
+
+
+
+
+
+
+/* cupid blue (inspired by okcupid.com)
+*******************************************************************************/
+.button {
+  display:inline-block;
+  background-color: #d7e5f5;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d7e5f5), color-stop(100%, #cbe0f5));
+  background-image: -webkit-linear-gradient(top, #d7e5f5, #cbe0f5);
+  background-image: -moz-linear-gradient(top, #d7e5f5, #cbe0f5);
+  background-image: -ms-linear-gradient(top, #d7e5f5, #cbe0f5);
+  background-image: -o-linear-gradient(top, #d7e5f5, #cbe0f5);
+  background-image: linear-gradient(top, #d7e5f5, #cbe0f5);
+  border-top: 1px solid #abbbcc;
+  border-left: 1px solid #a7b6c7;
+  border-bottom: 1px solid #a1afbf;
+  border-right: 1px solid #a7b6c7;
+  border-radius: 12px;
+  -webkit-box-shadow: inset 0 1px 0 0 white;
+  box-shadow: inset 0 1px 0 0 white;
+  color: #1a3e66;
+  font: normal 11px/1 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  padding: 6px 0 7px 0;
+  text-align: center;
+  text-shadow: 0 1px 1px #fff;
+  padding:15px 10px; }
+  .button:hover {
+    background-color: #ccd9e8;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ccd9e8), color-stop(100%, #c1d4e8));
+    background-image: -webkit-linear-gradient(top, #ccd9e8, #c1d4e8);
+    background-image: -moz-linear-gradient(top, #ccd9e8, #c1d4e8);
+    background-image: -ms-linear-gradient(top, #ccd9e8, #c1d4e8);
+    background-image: -o-linear-gradient(top, #ccd9e8, #c1d4e8);
+    background-image: linear-gradient(top, #ccd9e8, #c1d4e8);
+    border-top: 1px solid #a1afbf;
+    border-left: 1px solid #9caaba;
+    border-bottom: 1px solid #96a3b3;
+    border-right: 1px solid #9caaba;
+    -webkit-box-shadow: inset 0 1px 0 0 #f2f2f2;
+    box-shadow: inset 0 1px 0 0 #f2f2f2;
+    color: #163659;
+    cursor: pointer; }
+  .button:active {
+    border: 1px solid #8c98a7;
+    -webkit-box-shadow: inset 0 0 4px 2px #abbccf, 0 0 1px 0 #eeeeee;
+    box-shadow: inset 0 0 4px 2px #abbccf, 0 0 1px 0 #eeeeee; }
