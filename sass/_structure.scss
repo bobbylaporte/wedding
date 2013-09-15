@@ -5,11 +5,11 @@
 
 @font-face {
     font-family: 'Lubalin Graph';
-    src: url('/webfonts/lubalin/lubalin_graph_demi_regular-webfont.eot');
-    src: url('/webfonts/lubalin/lubalin_graph_demi_regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/webfonts/lubalin/lubalin_graph_demi_regular-webfont.woff') format('woff'),
-         url('/webfonts/lubalin/lubalin_graph_demi_regular-webfont.ttf') format('truetype'),
-         url('/webfonts/lubalin/lubalin_graph_demi_regular-webfont.svg#lubalin_graph_demiregular') format('svg');
+    src: url('webfonts/lubalin/lubalin_graph_demi_regular-webfont.eot');
+    src: url('webfonts/lubalin/lubalin_graph_demi_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/lubalin/lubalin_graph_demi_regular-webfont.woff') format('woff'),
+         url('webfonts/lubalin/lubalin_graph_demi_regular-webfont.ttf') format('truetype'),
+         url('webfonts/lubalin/lubalin_graph_demi_regular-webfont.svg#lubalin_graph_demiregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -281,11 +281,11 @@ nav ul li a:hover{
 }
 
 .location ul li.venue{
-	background: url('../img/venue.png') no-repeat top left;
+	background: url('img/venue.png') no-repeat top left;
 }
 
 .location ul li.hotel{
-	background: url('../img/hotel.png') no-repeat top left;
+	background: url('img/hotel.png') no-repeat top left;
 	
 }
 
