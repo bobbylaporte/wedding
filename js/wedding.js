@@ -141,8 +141,7 @@ var Wedding = {
 		$(".button.send-rsvp").on('click', function() {
 			$.ajax({
 				type: "POST",
-				url: 'http://www.bobbyandkatie.com:8888/submit',
-				dataType: 'jsonp',
+				url: 'http://bobbyandkatie.com:8888/submit',
 				data: $("form").serialize(), // serializes the form's elements.
 				success: function(data)
 				{
