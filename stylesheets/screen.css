@@ -95,7 +95,7 @@ html, body {
 /* line 29, ../sass/_structure.scss */
 body {
   font-size: 14px;
-  background: url("../img/bg.png") repeat #e5d7a8;
+  background: url("/img/bg.png") repeat #e5d7a8;
 }
 
 /* line 35, ../sass/_structure.scss */
@@ -367,17 +367,17 @@ nav ul li a:hover {
 
 /* line 274, ../sass/_structure.scss */
 .location ul li.venue {
-  background: url("img/venue.png") no-repeat top left;
+  background: url("/img/venue.png") no-repeat top left;
 }
 
 /* line 278, ../sass/_structure.scss */
 .location ul li.hotel {
-  background: url("img/hotel.png") no-repeat top left;
+  background: url("/img/hotel.png") no-repeat top left;
 }
 
 /* cupid blue (inspired by okcupid.com)
 *******************************************************************************/
-/* line 291, ../sass/_structure.scss */
+/* line 290, ../sass/_structure.scss */
 .button {
   display: inline-block;
   background-color: #d7e5f5;
@@ -402,7 +402,7 @@ nav ul li a:hover {
   padding: 15px 10px;
 }
 
-/* line 313, ../sass/_structure.scss */
+/* line 312, ../sass/_structure.scss */
 .button:hover {
   background-color: #ccd9e8;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ccd9e8), color-stop(100%, #c1d4e8));
@@ -421,7 +421,7 @@ nav ul li a:hover {
   cursor: pointer;
 }
 
-/* line 329, ../sass/_structure.scss */
+/* line 328, ../sass/_structure.scss */
 .button:active {
   border: 1px solid #8c98a7;
   -webkit-box-shadow: inset 0 0 4px 2px #abbccf, 0 0 1px 0 #eeeeee;

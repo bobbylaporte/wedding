@@ -28,7 +28,7 @@ html, body{
 
 body{
 	font-size:14px;
-	background: url('../img/bg.png') repeat #e5d7a8;
+	background: url('/img/bg.png') repeat #e5d7a8;
 }
 
 .fancy-border
@@ -272,12 +272,11 @@ nav ul li a:hover{
 }
 
 .location ul li.venue{
-	background: url('img/venue.png') no-repeat top left;
+	background: url('/img/venue.png') no-repeat top left;
 }
 
 .location ul li.hotel{
-	background: url('img/hotel.png') no-repeat top left;
-	
+	background: url('/img/hotel.png') no-repeat top left;
 }
 
 
