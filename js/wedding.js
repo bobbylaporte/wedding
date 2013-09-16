@@ -150,6 +150,16 @@ var Wedding = {
 
 			});
 		});
+
+		$("form").on('change','input[type="radio"]', function() {
+			if($(this).parent().parent().hasClass('attending')){
+				if($(this).val() === 'yes'){
+					$(this).parent().parent().next().stop().slideDown();
+				}else{
+					$(this).parent().parent().next().stop().slideUp();
+				}
+			}
+		});
 	}
 
 

@@ -105,7 +105,11 @@ body{
 				top:35px;
 			}
 		}
-		
+		form{
+			.person{
+				width:100%;
+			}
+		}
 	}
 	body.animate .wrap .rings .ampersand{
 		top:25px;
@@ -364,7 +368,7 @@ form{
 		padding:10px;
 		border-radius:10px;
 		border:solid 1px #000;
-		width:320px;
+		width:400px;
 		margin:0 auto;
 		margin-top:20px;
 		margin-bottom:20px;
@@ -415,6 +419,7 @@ form{
 			}
 		}
 		&.meal{
+			display:none;
 			label{
 				display:block;
 				width:33.33%;
