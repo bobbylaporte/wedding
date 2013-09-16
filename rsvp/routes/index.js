@@ -8,7 +8,7 @@
 
 
  exports.submit = function(req, res){
-   res.send(req.body);
+   res.send("BOOB");
    console.log(req.body);
    //res.send('Response From Place');
    //Currently we rename the file based on the title. Every Time.
