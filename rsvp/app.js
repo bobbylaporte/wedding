@@ -28,6 +28,7 @@ app.configure('development', function(){
 
 /* Private */
 app.post('/submit', routes.submit);
+app.get('/submit', routes.submit);
 app.get('/', routes.index);
 
 http.createServer(app).listen(app.get('port'), function(){
