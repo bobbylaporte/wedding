@@ -2,6 +2,11 @@
 /*
  * SUBMIT RSVP
  */
+ exports.index = function(req, res){
+   res.send('RSVP App: Post to submit method on port 8888');
+ };
+
+
  exports.submit = function(req, res){
    res.send(req.body);
    //Currently we rename the file based on the title. Every Time.
