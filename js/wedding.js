@@ -146,7 +146,7 @@ var Wedding = {
 				data: $("form").serialize(), // serializes the form's elements.
 				success: function(data)
 				{
-					alert(data); // show response from the php script.
+					console.log(data);
 				}
 			});
 		});
