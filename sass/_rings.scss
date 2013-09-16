@@ -15,7 +15,8 @@
       min-height:100%;
       position:relative;
       border-radius:50%;
-      border:10px solid #000;
+      border:10px solid;
+      border-color:#000;
       -webkit-transition: all ease 2s;
       -moz-transition: all ease 2s;
       -o-transition: all ease 2s;
@@ -41,7 +42,7 @@
 }
 
 body.animate{
-  .ring{
+  .person .ring{
     border-color:#f3da30;
     opacity:0.75;
   }

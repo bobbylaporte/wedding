@@ -138,6 +138,10 @@ var Wedding = {
 			});
 		});
 
+		$(".button.send-rsvp").on('click', function() {
+			$('form').submit();
+		});
+
 		$(".person-list").on('click', '.person .close', function() {
 			console.log('pow');
 			var $person = $(this).parent();

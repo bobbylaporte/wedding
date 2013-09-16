@@ -549,45 +549,46 @@ form .field-item.meal label {
   min-height: 100%;
   position: relative;
   border-radius: 50%;
-  border: 10px solid #000;
+  border: 10px solid;
+  border-color: #000;
   -webkit-transition: all ease 2s;
   -moz-transition: all ease 2s;
   -o-transition: all ease 2s;
   transition: all ease 2s;
 }
-/* line 24, ../sass/_rings.scss */
+/* line 25, ../sass/_rings.scss */
 .rings .person.male {
   left: 2%;
 }
-/* line 27, ../sass/_rings.scss */
+/* line 28, ../sass/_rings.scss */
 .rings .person.male .ring {
   background: url("/img/bobby/1.jpg");
   background-size: 100%;
 }
-/* line 32, ../sass/_rings.scss */
+/* line 33, ../sass/_rings.scss */
 .rings .person.female {
   right: 2%;
 }
-/* line 35, ../sass/_rings.scss */
+/* line 36, ../sass/_rings.scss */
 .rings .person.female .ring {
   background: url("/img/katie/3.jpg");
   background-size: 100%;
 }
 
-/* line 44, ../sass/_rings.scss */
-body.animate .ring {
+/* line 45, ../sass/_rings.scss */
+body.animate .person .ring {
   border-color: #f3da30;
   opacity: 0.75;
 }
-/* line 49, ../sass/_rings.scss */
+/* line 50, ../sass/_rings.scss */
 body.animate .person.female {
   right: 8%;
 }
-/* line 53, ../sass/_rings.scss */
+/* line 54, ../sass/_rings.scss */
 body.animate .person.male {
   left: 8%;
 }
-/* line 58, ../sass/_rings.scss */
+/* line 59, ../sass/_rings.scss */
 body.animate .rings .ampersand {
   opacity: 1;
   color: #FFF;
@@ -596,7 +597,7 @@ body.animate .rings .ampersand {
   left: 0px;
 }
 
-/* line 69, ../sass/_rings.scss */
+/* line 70, ../sass/_rings.scss */
 .rings .ampersand {
   font-family: 'Lubalin Graph';
   color: #000;
@@ -612,7 +613,7 @@ body.animate .rings .ampersand {
   line-height: 100%;
 }
 
-/* line 85, ../sass/_rings.scss */
+/* line 86, ../sass/_rings.scss */
 .info {
   line-height: 1.6em;
   text-align: center;
@@ -624,19 +625,19 @@ body.animate .rings .ampersand {
   -o-transition: all ease 2s;
   transition: all ease 2s;
 }
-/* line 96, ../sass/_rings.scss */
+/* line 97, ../sass/_rings.scss */
 .info .intro {
   font-size: 26px;
   line-height: 36px;
 }
 
-/* line 103, ../sass/_rings.scss */
+/* line 104, ../sass/_rings.scss */
 nav {
   display: block;
   height: 40px;
 }
 
-/* line 108, ../sass/_rings.scss */
+/* line 109, ../sass/_rings.scss */
 iframe {
   margin: 0 auto;
   margin-top: 50px;
