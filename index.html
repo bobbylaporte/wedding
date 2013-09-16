@@ -5,6 +5,8 @@
 	<script type="text/javascript"
       src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBiShJr1XZ41Eag4kyV6zmUKfhjI09c8oY&sensor=true"></script>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	<script type="text/javascript" src="http://modernizr.com/downloads/modernizr-latest.js"></script>
 	<script type="text/javascript" src="js/wedding.js"></script>
 	<link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
 	<link href='http://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo|Cutive|Open+Sans' rel='stylesheet' type='text/css'>
@@ -92,10 +94,83 @@
 				</div>
 
 				<h2 id="rsvp">RSVP</h2>
-				<div class="subhead">I will (or won't) be joining you.</div>
+				<div class="subhead rsvp"><span class="pronoun">I</span> ____ be joining you.</div>
 
 				<div class="info rsvp">
-					FORM
+					Please enter your name(s) as written on your invitation or enter your guest's name as you would like in on their place card.
+					<form>
+						<div class="person-list">
+							<div class="person">
+								<fieldset class="field-item name">
+									<label>
+										Name:
+									</label>
+									<input type="input" class="search" name="person[0][name]" placeholder="Type Name" />
+								</fieldset>
+								<fieldset class="field-item attending">
+									<label>
+										Going
+										<input type="radio" name="person[0][attending]" value="yes" />
+									</label>
+									<label>
+										Not Going
+										<input type="radio" name="person[0][attending]" value="no" />
+									</label>
+								</fieldset>
+								<fieldset class="field-item meal">
+									<label>
+										Chicken
+										<input type="radio" name="person[0][meal]" value="chicken" />
+									</label>
+									<label>
+										Beef
+										<input type="radio" name="person[0][meal]" value="beef" />
+									</label>
+									<label>
+										Fish
+										<input type="radio" name="person[0][meal]" value="fish" />
+									</label>
+								</fieldset>
+							</div>
+						</div>
+						<div class="button add-person">Add Person</div><div class="button send-rsvp">Send RSVP</div>
+					</form>
+
+					<div class="person-stamp">
+						<div class="person">
+							<div class="close">REMOVE</div>
+							<fieldset class="field-item name">
+								<label>
+									Name:
+								</label>
+								<input type="input" class="search" name="[name]" placeholder="Type Name" />
+							</fieldset>
+							<fieldset class="field-item attending">
+								<label>
+									Going
+									<input type="radio" name="[attending]" value="yes" />
+								</label>
+								<label>
+									Not Going
+									<input type="radio" name="[attending]" value="no" />
+								</label>
+							</fieldset>
+							<fieldset class="field-item meal">
+								<label>
+									Chicken
+									<input type="radio" name="[meal]" value="chicken" />
+								</label>
+								<label>
+									Beef
+									<input type="radio" name="[meal]" value="beef" />
+								</label>
+								<label>
+									Fish
+									<input type="radio" name="[meal]" value="fish" />
+								</label>
+							</fieldset>
+						</div>
+					</div>
 				</div>
 			</div><!-- end .content -->
 		</div><!-- end .inner-wrap -->

@@ -128,55 +128,60 @@ body {
   */
 }
 
+/* line 64, ../sass/_structure.scss */
+.no-touch .map-wrapper .overlay {
+  display: none;
+}
+
 @media only screen and (max-width: 700px) {
-  /* line 62, ../sass/_structure.scss */
+  /* line 71, ../sass/_structure.scss */
   .wrap {
     width: 100%;
   }
 
-  /* line 65, ../sass/_structure.scss */
+  /* line 74, ../sass/_structure.scss */
   body.animate .wrap .rings .ampersand {
     top: 50px;
     font-size: 50px;
   }
 }
 @media only screen and (min-width: 479px) and (max-width: 700px) {
-  /* line 73, ../sass/_structure.scss */
+  /* line 82, ../sass/_structure.scss */
   .wrap .rings {
     height: 175px;
     width: 400px;
     margin: 0 auto;
   }
-  /* line 77, ../sass/_structure.scss */
+  /* line 86, ../sass/_structure.scss */
   .wrap .rings .ampersand {
     top: 75px;
   }
 
-  /* line 83, ../sass/_structure.scss */
+  /* line 92, ../sass/_structure.scss */
   body.animate .wrap .rings .ampersand {
     top: 60px;
     font-size: 50px;
   }
 }
 @media only screen and (max-width: 478px) {
-  /* line 91, ../sass/_structure.scss */
+  /* line 100, ../sass/_structure.scss */
   .wrap .rings {
     height: 90px;
     width: 210px;
     margin: 0px auto;
   }
-  /* line 95, ../sass/_structure.scss */
+  /* line 104, ../sass/_structure.scss */
   .wrap .rings .ampersand {
     top: 35px;
   }
 
-  /* line 101, ../sass/_structure.scss */
+  /* line 110, ../sass/_structure.scss */
   body.animate .wrap .rings .ampersand {
     top: 25px;
     font-size: 50px;
   }
 }
-/* line 107, ../sass/_structure.scss */
+/* line 116, ../sass/_structure.scss */
 h1 {
   width: 100%;
   text-align: center;
@@ -184,24 +189,24 @@ h1 {
   padding-top: 25px;
   font-family: 'Lubalin Graph';
 }
-/* line 114, ../sass/_structure.scss */
+/* line 123, ../sass/_structure.scss */
 h1 span {
   position: relative;
   display: inline-block;
   font-size: 55px;
 }
-/* line 118, ../sass/_structure.scss */
+/* line 127, ../sass/_structure.scss */
 h1 span.ampersand {
   font-size: 75px;
   opacity: 0.5;
   left: -5px;
 }
-/* line 124, ../sass/_structure.scss */
+/* line 133, ../sass/_structure.scss */
 h1 span.female, h1 span.male {
   top: -10px;
 }
 
-/* line 130, ../sass/_structure.scss */
+/* line 139, ../sass/_structure.scss */
 h2 {
   width: 100%;
   text-align: center;
@@ -210,7 +215,7 @@ h2 {
   margin-top: 90px;
 }
 
-/* line 138, ../sass/_structure.scss */
+/* line 147, ../sass/_structure.scss */
 .subhead {
   font-family: 'Swanky and Moo Moo';
   width: 100%;
@@ -219,20 +224,20 @@ h2 {
   opacity: 0.5;
 }
 
-/* line 146, ../sass/_structure.scss */
+/* line 155, ../sass/_structure.scss */
 nav {
   width: 100%;
   text-align: center;
 }
 
-/* line 152, ../sass/_structure.scss */
+/* line 161, ../sass/_structure.scss */
 .inner-wrap {
   background-color: #fff;
   border: 2px dashed #e5d7a8;
   padding: 20px;
 }
 
-/* line 158, ../sass/_structure.scss */
+/* line 167, ../sass/_structure.scss */
 header h1 {
   font-size: 60px;
   line-height: 100px;
@@ -240,7 +245,7 @@ header h1 {
   position: relative;
 }
 
-/* line 165, ../sass/_structure.scss */
+/* line 174, ../sass/_structure.scss */
 header h1 span {
   font-size: 100px;
   line-height: 100px;
@@ -248,7 +253,7 @@ header h1 span {
   z-index: 25;
 }
 
-/* line 172, ../sass/_structure.scss */
+/* line 181, ../sass/_structure.scss */
 header h1 span.amp {
   font-size: 160px;
   top: 25px;
@@ -258,20 +263,20 @@ header h1 span.amp {
   z-index: 0;
 }
 
-/* line 181, ../sass/_structure.scss */
+/* line 190, ../sass/_structure.scss */
 header h2 {
   font-size: 45px;
   text-align: center;
 }
 
-/* line 186, ../sass/_structure.scss */
+/* line 195, ../sass/_structure.scss */
 nav {
   font-size: 20px;
   margin: 20px 0;
   height: 40px;
 }
 
-/* line 192, ../sass/_structure.scss */
+/* line 201, ../sass/_structure.scss */
 nav ul li {
   display: block;
   float: left;
@@ -279,7 +284,7 @@ nav ul li {
   text-align: center;
 }
 
-/* line 199, ../sass/_structure.scss */
+/* line 208, ../sass/_structure.scss */
 nav ul li a {
   display: block;
   color: #000;
@@ -288,21 +293,21 @@ nav ul li a {
   border: 2px solid white;
 }
 
-/* line 207, ../sass/_structure.scss */
+/* line 216, ../sass/_structure.scss */
 nav ul li a:hover {
   /*color:#fff;
   background-color:#000;*/
   border: 2px dashed #E5D7A8;
 }
 
-/* line 213, ../sass/_structure.scss */
+/* line 222, ../sass/_structure.scss */
 .content {
   width: 100%;
   position: relative;
   overflow: hidden;
 }
 
-/* line 219, ../sass/_structure.scss */
+/* line 228, ../sass/_structure.scss */
 .content .slider {
   position: absolute;
   width: 306%;
@@ -310,7 +315,7 @@ nav ul li a:hover {
   left: 0;
 }
 
-/* line 226, ../sass/_structure.scss */
+/* line 235, ../sass/_structure.scss */
 .content .panel {
   text-align: center;
   float: left;
@@ -318,16 +323,16 @@ nav ul li a:hover {
   height: 500px;
 }
 
-/* line 233, ../sass/_structure.scss */
+/* line 242, ../sass/_structure.scss */
 .content h3 {
   font-size: 45px;
 }
 
-/* line 237, ../sass/_structure.scss */
+/* line 246, ../sass/_structure.scss */
 .map-wrapper {
   position: relative;
 }
-/* line 239, ../sass/_structure.scss */
+/* line 248, ../sass/_structure.scss */
 .map-wrapper .overlay {
   position: absolute;
   height: 100%;
@@ -337,12 +342,13 @@ nav ul li a:hover {
   left: 0;
   opacity: 0.5;
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   font-family: 'Lubalin Graph';
   line-height: 300px;
+  overflow: hidden;
 }
 
-/* line 254, ../sass/_structure.scss */
+/* line 264, ../sass/_structure.scss */
 .map_border {
   width: 100%;
   height: 100%;
@@ -352,42 +358,42 @@ nav ul li a:hover {
   z-index: 1;
 }
 
-/* line 263, ../sass/_structure.scss */
+/* line 273, ../sass/_structure.scss */
 #map {
   width: 100%;
   height: 300px;
 }
 
-/* line 269, ../sass/_structure.scss */
+/* line 279, ../sass/_structure.scss */
 .location ul {
   margin: 0 auto;
 }
 
-/* line 273, ../sass/_structure.scss */
+/* line 283, ../sass/_structure.scss */
 .location ul li {
   text-align: left;
   padding-left: 50px;
   margin-bottom: 20px;
 }
 
-/* line 279, ../sass/_structure.scss */
+/* line 289, ../sass/_structure.scss */
 .location ul li h4 {
   font-size: 20px;
 }
 
-/* line 283, ../sass/_structure.scss */
+/* line 293, ../sass/_structure.scss */
 .location ul li.venue {
   background: url("/img/venue.png") no-repeat top left;
 }
 
-/* line 287, ../sass/_structure.scss */
+/* line 297, ../sass/_structure.scss */
 .location ul li.hotel {
   background: url("/img/hotel.png") no-repeat top left;
 }
 
 /* cupid blue (inspired by okcupid.com)
 *******************************************************************************/
-/* line 299, ../sass/_structure.scss */
+/* line 309, ../sass/_structure.scss */
 .button {
   display: inline-block;
   background-color: #d7e5f5;
@@ -412,7 +418,7 @@ nav ul li a:hover {
   padding: 15px 10px;
 }
 
-/* line 321, ../sass/_structure.scss */
+/* line 331, ../sass/_structure.scss */
 .button:hover {
   background-color: #ccd9e8;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ccd9e8), color-stop(100%, #c1d4e8));
@@ -431,11 +437,94 @@ nav ul li a:hover {
   cursor: pointer;
 }
 
-/* line 337, ../sass/_structure.scss */
+/* line 347, ../sass/_structure.scss */
 .button:active {
   border: 1px solid #8c98a7;
   -webkit-box-shadow: inset 0 0 4px 2px #abbccf, 0 0 1px 0 #eeeeee;
   box-shadow: inset 0 0 4px 2px #abbccf, 0 0 1px 0 #eeeeee;
+}
+
+/* line 356, ../sass/_structure.scss */
+form .ui-helper-hidden-accessible {
+  font-size: 10px;
+}
+/* line 359, ../sass/_structure.scss */
+form .button {
+  margin-left: 10px;
+}
+/* line 362, ../sass/_structure.scss */
+form .person {
+  overflow: hidden;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 1px #000;
+  width: 320px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #F8F3CF;
+  position: relative;
+}
+/* line 373, ../sass/_structure.scss */
+form .person .close {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-bottom-left-radius: 10px;
+  color: #FFF;
+  background-color: #000;
+  font-size: 10px;
+  padding: 0px 10px;
+  font-family: 'Verdana';
+  cursor: pointer;
+}
+/* line 386, ../sass/_structure.scss */
+form .field-item {
+  margin-bottom: 5px;
+}
+/* line 388, ../sass/_structure.scss */
+form .field-item label {
+  font-size: 12px;
+}
+/* line 391, ../sass/_structure.scss */
+form .field-item input {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+/* line 397, ../sass/_structure.scss */
+form .field-item.name label {
+  display: none;
+}
+/* line 400, ../sass/_structure.scss */
+form .field-item.name input {
+  display: block;
+  width: 100%;
+}
+/* line 406, ../sass/_structure.scss */
+form .field-item.attending label {
+  display: block;
+  width: 50%;
+  border-radius: 10px;
+  float: left;
+  padding: 10px 10px;
+  font-family: 'Verdana';
+  box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.5), inset 0px -1px 2px 0px rgba(255, 255, 255, 0.6);
+}
+/* line 418, ../sass/_structure.scss */
+form .field-item.meal label {
+  display: block;
+  width: 33.33%;
+  border-radius: 10px;
+  float: left;
+  padding: 10px 10px;
+  font-family: 'Verdana';
+  box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.5), inset 0px -1px 2px 0px rgba(255, 255, 255, 0.6);
+}
+
+/* line 432, ../sass/_structure.scss */
+.person-stamp {
+  display: none;
 }
 
 /* line 1, ../sass/_rings.scss */
@@ -444,9 +533,8 @@ nav ul li a:hover {
   height: 275px;
   position: relative;
 }
-
-/* line 6, ../sass/_rings.scss */
-.person {
+/* line 5, ../sass/_rings.scss */
+.rings .person {
   width: 45%;
   height: 100%;
   position: absolute;
@@ -455,8 +543,8 @@ nav ul li a:hover {
   -o-transition: all ease 2s;
   transition: all ease 2s;
 }
-/* line 14, ../sass/_rings.scss */
-.person .ring {
+/* line 13, ../sass/_rings.scss */
+.rings .person .ring {
   width: 100%;
   min-height: 100%;
   position: relative;
@@ -467,21 +555,21 @@ nav ul li a:hover {
   -o-transition: all ease 2s;
   transition: all ease 2s;
 }
-/* line 25, ../sass/_rings.scss */
-.person.male {
+/* line 24, ../sass/_rings.scss */
+.rings .person.male {
   left: 2%;
 }
-/* line 28, ../sass/_rings.scss */
-.person.male .ring {
+/* line 27, ../sass/_rings.scss */
+.rings .person.male .ring {
   background: url("/img/bobby/1.jpg");
   background-size: 100%;
 }
-/* line 33, ../sass/_rings.scss */
-.person.female {
+/* line 32, ../sass/_rings.scss */
+.rings .person.female {
   right: 2%;
 }
-/* line 36, ../sass/_rings.scss */
-.person.female .ring {
+/* line 35, ../sass/_rings.scss */
+.rings .person.female .ring {
   background: url("/img/katie/3.jpg");
   background-size: 100%;
 }

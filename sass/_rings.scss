@@ -2,40 +2,40 @@
   width:99%;
   height:275px;
   position:relative;
-}
-.person{
-  width:45%;
-  height:100%;
-  position:absolute;
-  -webkit-transition: all ease 2s;
-  -moz-transition: all ease 2s;
-  -o-transition: all ease 2s;
-  transition: all ease 2s;
-  .ring{
-    width:100%;
-    min-height:100%;
-    position:relative;
-    border-radius:50%;
-    border:10px solid #000;
+  .person{
+    width:45%;
+    height:100%;
+    position:absolute;
     -webkit-transition: all ease 2s;
     -moz-transition: all ease 2s;
     -o-transition: all ease 2s;
     transition: all ease 2s;
-  }
-  &.male{
-    //margin-left:-10%;
-    left:2%;
     .ring{
-      background: url('/img/bobby/1.jpg');
-      background-size:100%;
+      width:100%;
+      min-height:100%;
+      position:relative;
+      border-radius:50%;
+      border:10px solid #000;
+      -webkit-transition: all ease 2s;
+      -moz-transition: all ease 2s;
+      -o-transition: all ease 2s;
+      transition: all ease 2s;
     }
-  }
-  &.female{
-    //margin-right:-10%
-    right:2%;
-    .ring{
-      background: url('/img/katie/3.jpg');
-      background-size:100%;
+    &.male{
+      //margin-left:-10%;
+      left:2%;
+      .ring{
+        background: url('/img/bobby/1.jpg');
+        background-size:100%;
+      }
+    }
+    &.female{
+      //margin-right:-10%
+      right:2%;
+      .ring{
+        background: url('/img/katie/3.jpg');
+        background-size:100%;
+      }
     }
   }
 }

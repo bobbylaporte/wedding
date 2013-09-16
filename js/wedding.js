@@ -1,3 +1,15 @@
+jQuery.expr.filters.offscreen = function(el) {
+  return (
+              (el.offsetLeft + el.offsetWidth) < 0 
+              || (el.offsetTop + el.offsetHeight) < 0
+              || (el.offsetLeft > window.innerWidth || el.offsetTop > window.innerHeight)
+         );
+};
+
+
+
+
+
 var Wedding = {
 	venue: {},
 	hotel : {},
@@ -115,6 +127,25 @@ var Wedding = {
 		$(".map-wrapper .overlay").click(function() {
 			$(this).fadeOut();
 		});
+
+		$(".button.add-person").on('click', function() {
+			var html = $('.person-stamp').html();
+			$("form .person-list").append(html);
+			$("form .person-list .person:last-child input").each(function(){
+				var len = $("form .person-list .person").length - 1;
+				var attrName = 'person['+ len +']' +  $(this).attr('name');
+				$(this).attr('name', attrName);
+			});
+		});
+
+		$(".person-list").on('click', '.person .close', function() {
+			console.log('pow');
+			var $person = $(this).parent();
+			$person.slideUp(500,function(){
+				$person.remove();
+
+			});
+		});
 	}
 
 
@@ -138,5 +169,15 @@ jQuery(document).ready(function(){
 
 
 	Wedding.init();
+
+
+
+	/*var availableTags = [
+	  "Bobby LaPorte",
+	  "Katie Keith"
+	];
+	$( ".search" ).autocomplete({
+	  source: availableTags
+	});*/
 
 });
