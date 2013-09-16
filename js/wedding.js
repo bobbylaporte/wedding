@@ -139,7 +139,8 @@ var Wedding = {
 		});
 
 		$(".button.send-rsvp").on('click', function() {
-			$.ajax({
+			$('.rsvp-form').submit();
+			/*$.ajax({
 				type: "GET",
 				url: 'http://bobbyandkatie.com:8888/submit',
 				dataType: 'jsonp',
@@ -148,7 +149,7 @@ var Wedding = {
 				{
 					alert(data);
 				}
-			});
+			});*/
 		});
 
 		$(".person-list").on('click', '.person .close', function() {
