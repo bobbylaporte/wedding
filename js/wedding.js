@@ -140,12 +140,13 @@ var Wedding = {
 
 		$(".button.send-rsvp").on('click', function() {
 			$.ajax({
-				type: "POST",
+				type: "GET",
 				url: 'http://bobbyandkatie.com:8888/submit',
-				data: $("form").serialize(), // serializes the form's elements.
+				dataType: 'jsonp',
+				data: $(".rvsp-form").serialize(), // serializes the form's elements.
 				success: function(data)
 				{
-					console.log(data);
+					alert(data);
 				}
 			});
 		});

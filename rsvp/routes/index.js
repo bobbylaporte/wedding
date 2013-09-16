@@ -9,6 +9,7 @@
 
  exports.submit = function(req, res){
    res.send(req.body);
+   console.log(re.body);
    //res.send('Response From Place');
    //Currently we rename the file based on the title. Every Time.
    /*var title = req.body.recipe.title;
