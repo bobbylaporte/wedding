@@ -111,6 +111,10 @@ var Wedding = {
 				scrollTop: $(target).offset().top
 			}, 2000);
 		});
+
+		$(".map-wrapper .overlay").click(function() {
+			$(this).fadeOut();
+		});
 	}
 
 
