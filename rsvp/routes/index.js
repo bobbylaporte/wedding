@@ -3,7 +3,7 @@
  * SUBMIT RSVP
  */
  exports.submit = function(req, res){
-   console.log(req.body);
+   res.send(req.body);
    //Currently we rename the file based on the title. Every Time.
    /*var title = req.body.recipe.title;
    var datetime = req.body.recipe.datetime;
