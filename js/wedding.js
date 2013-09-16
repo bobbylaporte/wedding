@@ -45,7 +45,7 @@ var Wedding = {
 		var myOptions = {
 			zoom: 11,
 			center: centerLatLon,
-			draggable: false,
+			scrollwheel: false,
 			disableDefaultUI: false,
 			mapTypeId: google.maps.MapTypeId.ROADMAP
 		}
