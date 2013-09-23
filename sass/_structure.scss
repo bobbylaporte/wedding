@@ -145,7 +145,6 @@ h2{
 	text-align: center;
 	font-size: 32px;
 	padding-top:20px;
-	margin-top:90px;
 }
 
 .subhead{
@@ -304,7 +303,12 @@ nav ul li a:hover{
 
 
 
-
+.vertical-flourish{
+	width:75px;
+	display:block;
+	margin:30px auto;
+	opacity:0.5;
+}
 
 
 
@@ -437,3 +441,5 @@ form{
 .person-stamp{
 	display:none;
 }
+
+
