@@ -44,7 +44,7 @@ var Wedding = {
 		var i = 1;
 
 		var katieTimer = setInterval(function changeBG(){
-			if(i > 23){
+			if(i > 22){
 				clearInterval(katieTimer);
 			}else{
 				$('.person.female .ring').css('background', 'url("/img/katie/kiss/'+ i +'.jpg") center center');
@@ -55,16 +55,20 @@ var Wedding = {
 
 		var j = 1;
 
-		var bobbyTimer = setInterval(function changeBG(){
-			if(j > 23){
-				clearInterval(bobbyTimer);
-				moveRings();
-			}else{
-				$('.person.male .ring').css('background', 'url("/img/bobby/kiss/'+ j +'.jpg") center center');
-				j = j + 1;
-			}
-		},300);
-
+		function bobby(){
+			var bobbyTimer = setInterval(function changeBG(){
+				if(j > 23){
+					clearInterval(bobbyTimer);
+					moveRings();
+				}else{
+					$('.person.male .ring').css('background', 'url("/img/bobby/kiss/'+ j +'.jpg") center center');
+					j = j + 1;
+				}
+			},300);
+		}
+		setTimeout(function(){
+			bobby();
+		},500);
 
 		//Bring Rings together
 		function moveRings(){
