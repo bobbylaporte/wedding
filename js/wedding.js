@@ -19,9 +19,24 @@ var Wedding = {
 
 		Wedding.loadMap();
 		Wedding.bind();
-		Wedding.animate();
+		Wedding.preload();
+		
+
+	},
+	preload : function(){
+		var imgArray = [];
+		for (var i = 0; i < 23; i++) {
+			imgArray.push('/img/bobby/kiss/'+i+'.jpg');
+			imgArray.push('/img/katie/kiss/'+i+'.jpg');
+		}
 
 
+		$.imgpreload(imgArray,
+		{
+			all: function(){
+				Wedding.animate();
+			}
+		});
 	},
 	animate : function(){
 
@@ -32,7 +47,6 @@ var Wedding = {
 			if(i > 23){
 				clearInterval(katieTimer);
 			}else{
-				console.log(i);
 				$('.person.female .ring').css('background', 'url("/img/katie/kiss/'+ i +'.jpg") center center');
 				i = i + 1;
 			}
@@ -46,7 +60,6 @@ var Wedding = {
 				clearInterval(bobbyTimer);
 				moveRings();
 			}else{
-				console.log(j);
 				$('.person.male .ring').css('background', 'url("/img/bobby/kiss/'+ j +'.jpg") center center');
 				j = j + 1;
 			}
