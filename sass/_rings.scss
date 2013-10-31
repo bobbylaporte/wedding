@@ -22,21 +22,20 @@
       -moz-transition: border-color ease 2s, opacity ease 2s;
       -o-transition: border-color ease 2s, opacity ease 2s;
       transition: border-color ease 2s, opacity ease 2s;
+
     }
     &.male{
       //margin-left:-10%;
-      left:2%;
+      right:2%;
       .ring{
-        background: url('/img/bobby/1.jpg');
-        background-size:100%;
+        background: url('/img/bobby/kiss/0.jpg') center center;
       }
     }
     &.female{
       //margin-right:-10%
-      right:2%;
+      left:2%;
       .ring{
-        background: url('/img/katie/3.jpg');
-        background-size:100%;
+        background: url('/img/katie/kiss/0.jpg') center center;
       }
     }
   }
@@ -49,11 +48,11 @@ body.animate{
   }
   .person{
     &.female{
-      right:8%;
+      left:8%;
     }
 
     &.male{
-      left:8%;
+      right:8%;
     }
   }
   .rings{
