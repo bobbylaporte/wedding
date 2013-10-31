@@ -25,7 +25,7 @@ var Wedding = {
 	},
 	preload : function(){
 		var imgArray = [];
-		for (var i = 1; i > 23; i++) {
+		for (var i = 1; i <= 23; i++) {
 			imgArray.push('/img/bobby/kiss/'+i+'.jpg');
 			imgArray.push('/img/katie/kiss/'+i+'.jpg');
 		}
