@@ -215,10 +215,9 @@ h2 {
   width: 100%;
   text-align: center;
   font-size: 32px;
-  padding-top: 20px;
 }
 
-/* line 150, ../sass/_structure.scss */
+/* line 149, ../sass/_structure.scss */
 .subhead {
   font-family: 'Swanky and Moo Moo';
   width: 100%;
@@ -227,20 +226,20 @@ h2 {
   opacity: 0.5;
 }
 
-/* line 158, ../sass/_structure.scss */
+/* line 157, ../sass/_structure.scss */
 nav {
   width: 100%;
   text-align: center;
 }
 
-/* line 164, ../sass/_structure.scss */
+/* line 163, ../sass/_structure.scss */
 .inner-wrap {
   background-color: #fff;
   border: 2px dashed #e5d7a8;
   padding: 20px;
 }
 
-/* line 170, ../sass/_structure.scss */
+/* line 169, ../sass/_structure.scss */
 header h1 {
   font-size: 60px;
   line-height: 100px;
@@ -248,7 +247,7 @@ header h1 {
   position: relative;
 }
 
-/* line 177, ../sass/_structure.scss */
+/* line 176, ../sass/_structure.scss */
 header h1 span {
   font-size: 100px;
   line-height: 100px;
@@ -256,7 +255,7 @@ header h1 span {
   z-index: 25;
 }
 
-/* line 184, ../sass/_structure.scss */
+/* line 183, ../sass/_structure.scss */
 header h1 span.amp {
   font-size: 160px;
   top: 25px;
@@ -266,20 +265,20 @@ header h1 span.amp {
   z-index: 0;
 }
 
-/* line 193, ../sass/_structure.scss */
+/* line 192, ../sass/_structure.scss */
 header h2 {
   font-size: 45px;
   text-align: center;
 }
 
-/* line 198, ../sass/_structure.scss */
+/* line 197, ../sass/_structure.scss */
 nav {
   font-size: 20px;
   margin: 20px 0;
   height: 40px;
 }
 
-/* line 204, ../sass/_structure.scss */
+/* line 203, ../sass/_structure.scss */
 nav ul li {
   display: block;
   float: left;
@@ -287,7 +286,7 @@ nav ul li {
   text-align: center;
 }
 
-/* line 211, ../sass/_structure.scss */
+/* line 210, ../sass/_structure.scss */
 nav ul li a {
   display: block;
   color: #000;
@@ -296,21 +295,21 @@ nav ul li a {
   border: 2px solid white;
 }
 
-/* line 219, ../sass/_structure.scss */
+/* line 218, ../sass/_structure.scss */
 nav ul li a:hover {
   /*color:#fff;
   background-color:#000;*/
   border: 2px dashed #E5D7A8;
 }
 
-/* line 225, ../sass/_structure.scss */
+/* line 224, ../sass/_structure.scss */
 .content {
   width: 100%;
   position: relative;
   overflow: hidden;
 }
 
-/* line 231, ../sass/_structure.scss */
+/* line 230, ../sass/_structure.scss */
 .content .slider {
   position: absolute;
   width: 306%;
@@ -318,7 +317,7 @@ nav ul li a:hover {
   left: 0;
 }
 
-/* line 238, ../sass/_structure.scss */
+/* line 237, ../sass/_structure.scss */
 .content .panel {
   text-align: center;
   float: left;
@@ -326,16 +325,16 @@ nav ul li a:hover {
   height: 500px;
 }
 
-/* line 245, ../sass/_structure.scss */
+/* line 244, ../sass/_structure.scss */
 .content h3 {
   font-size: 45px;
 }
 
-/* line 249, ../sass/_structure.scss */
+/* line 248, ../sass/_structure.scss */
 .map-wrapper {
   position: relative;
 }
-/* line 251, ../sass/_structure.scss */
+/* line 250, ../sass/_structure.scss */
 .map-wrapper .overlay {
   position: absolute;
   height: 100%;
@@ -351,7 +350,7 @@ nav ul li a:hover {
   overflow: hidden;
 }
 
-/* line 267, ../sass/_structure.scss */
+/* line 266, ../sass/_structure.scss */
 .map_border {
   width: 100%;
   height: 100%;
@@ -361,50 +360,50 @@ nav ul li a:hover {
   z-index: 1;
 }
 
-/* line 276, ../sass/_structure.scss */
+/* line 275, ../sass/_structure.scss */
 #map {
   width: 100%;
   height: 300px;
 }
 
-/* line 282, ../sass/_structure.scss */
+/* line 281, ../sass/_structure.scss */
 .location ul {
   margin: 0 auto;
 }
 
-/* line 286, ../sass/_structure.scss */
+/* line 285, ../sass/_structure.scss */
 .location ul li {
   text-align: left;
   padding-left: 50px;
   margin-bottom: 20px;
 }
 
-/* line 292, ../sass/_structure.scss */
+/* line 291, ../sass/_structure.scss */
 .location ul li h4 {
   font-size: 20px;
 }
 
-/* line 296, ../sass/_structure.scss */
+/* line 295, ../sass/_structure.scss */
 .location ul li.venue {
   background: url("/img/venue.png") no-repeat top left;
 }
 
-/* line 300, ../sass/_structure.scss */
+/* line 299, ../sass/_structure.scss */
 .location ul li.hotel {
   background: url("/img/hotel.png") no-repeat top left;
 }
 
-/* line 306, ../sass/_structure.scss */
-.vertical-flourish {
+/* line 305, ../sass/_structure.scss */
+.rooster {
   width: 75px;
   display: block;
-  margin: 30px auto;
+  margin: 75px auto;
   opacity: 0.5;
 }
 
 /* cupid blue (inspired by okcupid.com)
 *******************************************************************************/
-/* line 317, ../sass/_structure.scss */
+/* line 316, ../sass/_structure.scss */
 .button {
   display: inline-block;
   background-color: #d7e5f5;
@@ -429,7 +428,7 @@ nav ul li a:hover {
   padding: 15px 10px;
 }
 
-/* line 339, ../sass/_structure.scss */
+/* line 338, ../sass/_structure.scss */
 .button:hover {
   background-color: #ccd9e8;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ccd9e8), color-stop(100%, #c1d4e8));
@@ -448,22 +447,22 @@ nav ul li a:hover {
   cursor: pointer;
 }
 
-/* line 355, ../sass/_structure.scss */
+/* line 354, ../sass/_structure.scss */
 .button:active {
   border: 1px solid #8c98a7;
   -webkit-box-shadow: inset 0 0 4px 2px #abbccf, 0 0 1px 0 #eeeeee;
   box-shadow: inset 0 0 4px 2px #abbccf, 0 0 1px 0 #eeeeee;
 }
 
-/* line 364, ../sass/_structure.scss */
+/* line 363, ../sass/_structure.scss */
 form .ui-helper-hidden-accessible {
   font-size: 10px;
 }
-/* line 367, ../sass/_structure.scss */
+/* line 366, ../sass/_structure.scss */
 form .button {
   margin-left: 10px;
 }
-/* line 370, ../sass/_structure.scss */
+/* line 369, ../sass/_structure.scss */
 form .person {
   overflow: hidden;
   padding: 10px;
@@ -476,7 +475,7 @@ form .person {
   background-color: #F8F3CF;
   position: relative;
 }
-/* line 381, ../sass/_structure.scss */
+/* line 380, ../sass/_structure.scss */
 form .person .close {
   position: absolute;
   top: 0px;
@@ -489,30 +488,30 @@ form .person .close {
   font-family: 'Verdana';
   cursor: pointer;
 }
-/* line 394, ../sass/_structure.scss */
+/* line 393, ../sass/_structure.scss */
 form .field-item {
   margin-bottom: 5px;
 }
-/* line 396, ../sass/_structure.scss */
+/* line 395, ../sass/_structure.scss */
 form .field-item label {
   font-size: 12px;
 }
-/* line 399, ../sass/_structure.scss */
+/* line 398, ../sass/_structure.scss */
 form .field-item input {
   padding: 10px;
   font-size: 18px;
   border-radius: 10px;
 }
-/* line 405, ../sass/_structure.scss */
+/* line 404, ../sass/_structure.scss */
 form .field-item.name label {
   display: none;
 }
-/* line 408, ../sass/_structure.scss */
+/* line 407, ../sass/_structure.scss */
 form .field-item.name input {
   display: block;
   width: 100%;
 }
-/* line 414, ../sass/_structure.scss */
+/* line 413, ../sass/_structure.scss */
 form .field-item.attending label {
   display: block;
   width: 50%;
@@ -522,11 +521,11 @@ form .field-item.attending label {
   font-family: 'Verdana';
   box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.5), inset 0px -1px 2px 0px rgba(255, 255, 255, 0.6);
 }
-/* line 425, ../sass/_structure.scss */
+/* line 424, ../sass/_structure.scss */
 form .field-item.meal {
   display: none;
 }
-/* line 427, ../sass/_structure.scss */
+/* line 426, ../sass/_structure.scss */
 form .field-item.meal label {
   display: block;
   width: 33.33%;
@@ -537,7 +536,7 @@ form .field-item.meal label {
   box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.5), inset 0px -1px 2px 0px rgba(255, 255, 255, 0.6);
 }
 
-/* line 441, ../sass/_structure.scss */
+/* line 440, ../sass/_structure.scss */
 .person-stamp {
   display: none;
 }

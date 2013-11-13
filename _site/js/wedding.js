@@ -50,7 +50,7 @@ var Wedding = {
 				$('.person.female .ring').css('background', 'url("/img/katie/kiss/'+ i +'.jpg") center center');
 				i = i + 1;
 			}
-		},300);
+		},400);
 
 
 		var j = 1;
@@ -64,11 +64,11 @@ var Wedding = {
 					$('.person.male .ring').css('background', 'url("/img/bobby/kiss/'+ j +'.jpg") center center');
 					j = j + 1;
 				}
-			},300);
+			},400);
 		}
 		setTimeout(function(){
 			bobby();
-		},500);
+		},600);
 
 		//Bring Rings together
 		function moveRings(){
